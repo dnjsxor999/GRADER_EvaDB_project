@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ### Usage
 Run script:
 ```
-python youtube_qa.py
+python -m GRADER.py
 ```
 If you don't have an OpenAI key, follow the instructions below:
 
