@@ -39,10 +39,12 @@ Also, you can find the sample rubric for each example question in this repositor
 ||             << You will need the 'Problem' and 'Answer' you want to score >>                ||
 =================================================================================================
 
-📖 Provide 'Question' here :: 
-Compare "base + offset" and "base + index" addressing modes. Give one example of when we might use "base + offset", and one when we might use "base + index".
-🖍 Provide 'Answer' you want to grade here :: 
-"Base + offset" calculates addresses using an absolute offset, whereas "base + index" calculates addresses using an offset multiplied by a fixed constant. "Base + offset" can be used to access members of a struct. "Base + index" can be used to access array elements, especially when using a counter to loop through all elements of the array.
+📖 Provide 'Question' here ::
+[Paste the question here]
+(i.e Compare "base + offset" and "base + index" addressing modes. Give one example of when we might use "base + offset", and one when we might use "base + index".)
+🖍 Provide 'Answer' you want to grade here ::
+[Paste the answer you want to grade here]
+(i.e "Base + offset" calculates addresses using an absolute offset, whereas "base + index" calculates addresses using an offset multiplied by a fixed constant. "Base + offset" can be used to access members of a struct. "Base + index" can be used to access array elements, especially when using a counter to loop through all elements of the array.)
 📄 Do you have a rubric for this question?, then please give me. 
 ('yes' for using your rubric / 'no' for using automatic generated rubric) :: 
 yes
@@ -51,7 +53,7 @@ yes
 [Your local path to rubric pdf, it should be formatted numbering and each section has "[points type] [points value] points: [requirement]"]
 ⏳ Moving your file into current directory...
 ✅ Rubric moved successfully from [source path] to [current path]
-(✅ Your Rubric is alread in this current directory!) [If your rubric file is in the current directory]
+(✅ Your Rubric is already in this current directory!) [If your rubric file is in the current directory]
 
 ...
 (if you do not have a rubric, need to generate the rubric by LLM)
@@ -60,7 +62,7 @@ yes
 no
 ✔ How many rubrics you need? (only integer) :: 
 4
-✔ What is the total score is this question? (only integer) :: 
+✔ What is the total score of this question? (only integer) :: 
 24                     
 ⏳ Generating Rubric by using LLM (may take a while)...
 ...
