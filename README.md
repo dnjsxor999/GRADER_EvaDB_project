@@ -28,6 +28,11 @@ Voila! You can now use your very own API key for using OpenAI API's within your 
 NOTE : Free accounts have a 15$ API limit passing which you will either have to create a new account or take the premium subscription.
 
 ### Example
+
+The example questions and answers can be found in `Question and Answers examples.pdf` file in this repository.
+Also, you can find the sample rubric for each example question in this repository. (i.e `rubric_example_0`, `rubric_example_1`, and `rubric_example_2`)
+
+
 ```
 =================================================================================================
 || 👋 Welcome to GRADER, This app is going to grade your answer based on your/generated rubric ||
