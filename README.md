@@ -49,6 +49,9 @@ yes
 🔒 Enter your OpenAI key :: [Your OpenAI API key]
 📂 Enter the local path to your rubric pdf :: 
 [Your local path to rubric pdf, it should be formatted numbering and each section has "[points type] [points value] points: [requirement]"]
+⏳ Moving your file into current directory...
+✅ Rubric moved successfully from [source path] to [current path]
+(✅ Your Rubric is alread in this current directory!) [If your rubric file is in the current directory]
 
 ...
 (if you do not have a rubric, need to generate the rubric by LLM)
@@ -61,10 +64,6 @@ no
 24                     
 ⏳ Generating Rubric by using LLM (may take a while)...
 ...
-
-⏳ Moving your file into current directory...
-✅ Rubric moved successfully from [source path] to [current path]
-(✅ Your Rubric is alread in this current directory!) [If your rubric file is in the current directory]
 
 ⏳ Loading Rubric into EvaDB Table
 ✅ Rubric successfully generated!
