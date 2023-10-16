@@ -26,3 +26,37 @@ Make sure to backup the key somewhere and keep it safe since OpenAI will now sho
 Voila! You can now use your very own API key for using OpenAI API's within your applications.
 
 NOTE : Free accounts have a 15$ API limit passing which you will either have to create a new account or take the premium subscription.
+
+### Example
+```
+=================================================================================================
+|| 👋 Welcome to GRADER, This app is going to grade your answer based on your/generated rubric ||
+||             << You will need the 'Problem' and 'Answer' you want to score >>                ||
+=================================================================================================
+
+📖 Provide 'Question' here :: 
+Compare "base + offset" and "base + index" addressing modes. Give one example of when we might use "base + offset", and one when we might use "base + index".
+🖍 Provide 'Answer' you want to grade here :: 
+"Base + offset" calculates addresses using an absolute offset, whereas "base + index" calculates addresses using an offset multiplied by a fixed constant. "Base + offset" can be used to access members of a struct. "Base + index" can be used to access array elements, especially when using a counter to loop through all elements of the array.
+📄 Do you have a rubric for this question?, then please give me. 
+('yes' for using your rubric / 'no' for using automatic generated rubric) :: 
+yes
+🔒 Enter your OpenAI key :: [Your OpenAI API key]
+📂 Enter the local path to your rubric pdf :: 
+[Your local path to rubric pdf, it should be formatted numbering and each section has "[points type] [points value] points: [requirement]"]
+
+⏳ Moving your file into current directory...
+✅ Rubric moved successfully from [source path] to [current path]
+(✅ Your Rubric is alread in this current directory!) [If your rubric file is in the current directory]
+
+⏳ Loading Rubric into EvaDB Table
+✅ Rubric successfully generated!
+⏳ Parsing Rubric to make Standard Rubric
+✅ Standard Rubric table successfully stored!
+⏳ Grading now (may take a while)...
+--------------------------------------------------
+|| ✅The total score is ::  (score / total score)  ||
+--------------------------------------------------
+👋 Session ended.
+--------------------------------------------------
+```
