@@ -50,6 +50,18 @@ yes
 📂 Enter the local path to your rubric pdf :: 
 [Your local path to rubric pdf, it should be formatted numbering and each section has "[points type] [points value] points: [requirement]"]
 
+...
+(if you do not have a rubric, need to generate the rubric by LLM)
+📄 Do you have a rubric for this question?, then please give me. 
+('yes' for using your rubric / 'no' for using automatic generated rubric) :: 
+no
+✔ How many rubrics you need? (only integer) :: 
+4
+✔ What is the total score is this question? (only integer) :: 
+24                     
+⏳ Generating Rubric by using LLM (may take a while)...
+...
+
 ⏳ Moving your file into current directory...
 ✅ Rubric moved successfully from [source path] to [current path]
 (✅ Your Rubric is alread in this current directory!) [If your rubric file is in the current directory]
