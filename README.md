@@ -39,7 +39,7 @@ Also, you can find the sample rubric for each example question in this repositor
 ||             << You will need the 'Problem' and 'Answer' you want to score >>                ||
 =================================================================================================
 
-📖 Provide 'Question' here ::
+🖍 Provide 'Question' here ::
 [Paste the question here]
 (i.e Compare "base + offset" and "base + index" addressing modes. Give one example of when we might use "base + offset", and one when we might use "base + index".)
 🖍 Provide 'Answer' you want to grade here ::
@@ -47,6 +47,9 @@ Also, you can find the sample rubric for each example question in this repositor
 (i.e "Base + offset" calculates addresses using an absolute offset, whereas "base + index" calculates addresses using an offset multiplied by a fixed constant. "Base + offset" can be used to access members of a struct. "Base + index" can be used to access array elements, especially when using a counter to loop through all elements of the array.)
 📄 Do you have a rubric for this question?, then please give me. 
 ('yes' for using your rubric / 'no' for using automatic generated rubric) :: 
+yes
+📖 Do you have a reference for this question?, and want to generate reference from your textbook pdf? 
+                         (If you want, you have to place your pdf in pdf folder in this current path.) :: 
 yes
 🔒 Enter your OpenAI key :: [Your OpenAI API key]
 📂 Enter the local path to your rubric pdf :: 
@@ -72,9 +75,51 @@ no
 ⏳ Parsing Rubric to make Standard Rubric
 ✅ Standard Rubric table successfully stored!
 ⏳ Grading now (may take a while)...
+
+llm response for rubric no.1 : by  tough  grader,  4 / 6
+llm response for rubric no.2 : by  tough  grader,  6 / 6
+llm response for rubric no.3 : by  tough  grader,  4 / 6
+llm response for rubric no.4 : by  tough  grader,  6 / 6
+llm response for rubric no.1 : by  moderate  grader,  5 / 6
+llm response for rubric no.2 : by  moderate  grader,  6 / 6
+llm response for rubric no.3 : by  moderate  grader,  6 / 6
+llm response for rubric no.4 : by  moderate  grader,  6 / 6
+llm response for rubric no.1 : by  merciful  grader,  6 / 6
+llm response for rubric no.2 : by  merciful  grader,  6 / 6
+llm response for rubric no.3 : by  merciful  grader,  6 / 6
+llm response for rubric no.4 : by  merciful  grader,  6 / 6
+-------------------------------------------
+❓Do you want get feedback for student's answer? :: 
+yes
++-------------+---------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------+
+|   Rubric no |   total point |   get point | feedback                                                                                                                                       |
+|-------------+---------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------|
+|           1 |             6 |     5       | The student's answer accurately explains the difference between "base + offset" and "base + index" and provides examples of when each is used. |
+|           2 |             6 |     5.33333 | The student accurately explains the difference between base + offset and base + index and provides examples of when each can be used.          |
+|           3 |             6 |     4.66667 | The student's answer accurately defines "base + index" and "base + offset" and provides examples of their usage.                               |
+|           4 |             6 |     6       | The student accurately identifies the difference between base + offset and base + index and provides examples of when each is used.            |
++-------------+---------------+-------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 --------------------------------------------------
 || ✅The total score is ::  (score / total score)  ||
 --------------------------------------------------
+textbook ,  Umakishore Ramachandran_ William D. Leahy Jr - Computer Systems_ An Integrated Approach to Architecture and Operating Systems-Pearson (2010).pdf
+⏳loading textbook into database...
+✅success loading pdf textbook
+⏳creating sentence feature extractor function...
+✅success create sentence feature extractor function
+⏳making vecter database...
+✅success make index
+⏳searching reference... 
+
+Based on your PDF: 
+-------------------------------------------
+[page : 280, paragraph : 3 => ...Figure 7.4: Base and Limit Registers The architectural enhancements ......]
+[page : 48, paragraph : 2 => ...]
+[page : 39, paragraph : 2 => ...]
+[page : 70, paragraph : 3 => ...]
+[page : 298, paragraph : 9 => ...]
+[references print out here]
+
 👋 Session ended.
 --------------------------------------------------
 ```
