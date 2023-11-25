@@ -17,11 +17,7 @@ pip install -r requirements.txt
 ### Usage
 Run script:
 ```
-python -m GRADER.py
-```
-or
-```
-python -m GRADER
+python GRADER.py
 ```
 
 
