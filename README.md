@@ -19,8 +19,13 @@ Run script:
 ```
 python -m GRADER.py
 ```
+or
+```
+python -m GRADER
+```
 
-**You should replace the `functions` folder (which contains "LLMFunction.py", "LLMExplanation.py", and "sentence_feature_extractor.py") with generated `functions` folder after first running `python GRADER.py`.**
+
+**After first running `python GRADER.py`, you should replace the `functions` folder (which contains "LLMFunction.py", "LLMExplanation.py", and "sentence_feature_extractor.py") with generated `functions` folder in `evadb_data` folder.**
 
 If you don't have an OpenAI key, follow the instructions below:
 
