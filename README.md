@@ -10,6 +10,8 @@ This app is powered by [EvaDB](https://evadb.readthedocs.io/en/latest/index.html
 
 Ensure that the local Python version is >= 3.8. Install the required libraries:
 ```
+python -m venv evadb-venv
+source evadb-venv/bin/activate
 pip install -r requirements.txt
 ```
 ### Usage
