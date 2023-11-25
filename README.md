@@ -23,7 +23,7 @@ Login to [OpenAI](https://openai.com/) website and go to the API section.
 Click the `Personal` tab on the top right of your screen, and navigate to `View API keys` section.
 Click on `Create new secret key button`, give a nickname and copy the API Key that shows up.
 Make sure to backup the key somewhere and keep it safe since OpenAI will now show you the complete key again.
-Voila! You can now use your very own API key for using OpenAI API's within your applications.
+You can now use your very own API key for using OpenAI API's within your applications.
 
 NOTE : Free accounts have a 15$ API limit passing which you will either have to create a new account or take the premium subscription.
 
@@ -32,6 +32,8 @@ NOTE : Free accounts have a 15$ API limit passing which you will either have to 
 The example questions and answers can be found in `Question and Answers examples.pdf` file in this repository.
 Also, you can find the sample rubric for each example question in this repository. (i.e `rubric_example_0`, `rubric_example_1`, and `rubric_example_2`)
 
+[upadate] you can upload the pdf files (i.e textbooks) in `pdf` folder for generating the reference to help students by giving relevance data.
+Here, for example, "Umakishore Ramachandran_ William D. Leahy Jr - Computer Systems_ An Integrated Approach to Architecture and Operating Systems-Pearson (2010).pdf" is pre-uploaded for testing the example questions and answers.
 
 ```
 =================================================================================================
