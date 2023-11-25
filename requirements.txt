@@ -1,3 +1,0 @@
-evadb==0.3.6
-llm==0.11
-PyMuPDF
