@@ -17,6 +17,9 @@ Run script:
 ```
 python -m GRADER.py
 ```
+
+**You should replace the `functions` folder (which contains "LLMFunction.py", "LLMExplanation.py", and "sentence_feature_extractor.py") with generated `functions` folder after first running `python GRADER.py`.**
+
 If you don't have an OpenAI key, follow the instructions below:
 
 Login to [OpenAI](https://openai.com/) website and go to the API section.
@@ -34,6 +37,7 @@ Also, you can find the sample rubric for each example question in this repositor
 
 [upadate] you can upload the pdf files (i.e textbooks) in `pdf` folder for generating the reference to help students by giving relevance data.
 Here, for example, "Umakishore Ramachandran_ William D. Leahy Jr - Computer Systems_ An Integrated Approach to Architecture and Operating Systems-Pearson (2010).pdf" is pre-uploaded for testing the example questions and answers.
+
 
 ```
 =================================================================================================
